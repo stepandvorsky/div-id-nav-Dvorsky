@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="peprak"></div>
+    <nav>
+        <ul>
+            <li><a href="https://www.w3schools.com/css/css_navbar.asp">Panel</a></li>
+            <li><a href="https://www.vitkovickastredni.cz/">skola</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+        </ul>
+    </nav>
+    <div id="peprak">
         <h1>pepřový spréj</h1>
         <br>
         <p>Pepřový sprej je nesmrtící obranný prostředek, který má protivníka dočasně paralyzovat.</p>
@@ -21,6 +28,52 @@
         <p>Případně jako pomůcka pro sebeobranu civilních osob.</p>
         <a href="https://cs.wikipedia.org/wiki/Teleskopick%C3%BD_obu%C5%A1ek">obušek</a>
     </div>
+    <div id="pouta">
+        <h1>Pouta</h1>
+        <br>
+        <p>jsou omezující zařízení, které slouží ke spojení obou rukou člověka dohromady.</p>
+        <p>Pouta obvykle používá policie, aby zamezila zadrženým utéci.</p>
+        <a href="https://cs.wikipedia.org/wiki/Pouta">Pouta</a>
+    </div>
+    <style>
+        div {
+          width:300px;
+          margin:auto;
+        }
+        </style>
+    <style>
+        #pouta {
+            background-color: aquamarine;
+        }
+
+        #teleskop {
+            background-color: antiquewhite;
+        }
+
+        #peprak {
+            background-color: cornflowerblue;
+        }
+
+        ul {
+        list-style-type: none;
+         margin: 0;
+         padding: 0;
+         width: 200px;
+        background-color: #f1f1f1;
+        }
+
+        li a {
+         display: block;
+         color: #000;
+         padding: 8px 16px;
+         text-decoration: none;
+        }
+        .active {
+        background-color: #04AA6D;
+        color: white;
+        }
+
+    </style>
 
 </body>
 </html>
